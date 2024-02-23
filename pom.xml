@@ -12,6 +12,7 @@
     <modules>
         <module>pear-convention-spring-boot-starter</module>
         <module>pear-cache-spring-boot-starter</module>
+        <module>pear-idgenerator-spring-boot-starter</module>
     </modules>
 
     <properties>
