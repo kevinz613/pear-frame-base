@@ -14,6 +14,7 @@
         <module>pear-cache-spring-boot-starter</module>
         <module>pear-idgenerator-spring-boot-starter</module>
         <module>pear-mq-spring-boot-starter</module>
+        <module>pear-Knife4j-spring-boot-starter</module>
     </modules>
 
     <properties>

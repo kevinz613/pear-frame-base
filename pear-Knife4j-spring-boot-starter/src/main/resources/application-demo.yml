@@ -1,0 +1,35 @@
+# springdoc-openapi项目配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: io.kevinz613.knife4j
+# knife4j的增强配置，不需要增强可以不配
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+  basic:
+    enable: true
+    # Basic认证用户名
+    username: kevinz613
+    # Basic认证密码
+    password: kevinz613
+
+# swagger配置
+swagger:
+  config:
+    enabled: true
+    title: 基础文档 #此处修改为自己文档标题
+    version: 1.0.0
+    description: 文档描述
+    contact:
+      name: kevinz613
+      url: https://github.com/kevinz613
+      email: fzhizhuang@163.com
